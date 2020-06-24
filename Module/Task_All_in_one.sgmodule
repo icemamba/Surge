@@ -78,10 +78,6 @@ Zaker = type=cron,cronexp=55 3 0 * * *,script-path=https://raw.githubusercontent
 # `我的` > `签到任务` 等到提示获取 Cookie 成功即可
 多看 = type=cron,cronexp=20 4 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/duokan/duokan.js,script-update-interval=0
 
-# > 京东618
-京东618=type=cron,cronexp="10,20,30,40,50 0 * * *",script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/jd/jd.618.js,wake-system=true,timeout=600
-京东618炸弹 = type=cron,cronexp="0 10,12,18,20 * * *",script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/jd/jd.618.boom.js,wake-system=true
-
 #  其他
 # > 联通查话费流量
 # 需要自己填key
