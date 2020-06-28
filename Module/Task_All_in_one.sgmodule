@@ -25,11 +25,6 @@ TestFlight公测监控 = script-path=https://raw.githubusercontent.com/songyangz
 #  NobyDa
 # > 京东
 京东 = type=cron,cronexp=0 0 0 * * *,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js,script-update-interval=0
-# > 爱奇艺
-爱奇艺 = type=cron,cronexp=5 0 0 * * *,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/iQIYI-DailyBonus/iQIYI.js,script-update-interval=0
-# > 百度签到
-# 打开App,点击'我的'
-百度贴吧 = type=cron,cronexp="0 0,1,2 0 * * *",script-path=https://raw.githubusercontent.com/NobyDa/Script/master/BDTieBa-DailyBonus/TieBa.js,script-update-interval=0
 
 # @chavyleung
 # bilibili
@@ -41,16 +36,6 @@ TestFlight公测监控 = script-path=https://raw.githubusercontent.com/songyangz
 # V2EX
 # 浏览器打开https://www.v2ex.com/mission/daily ，待弹出获取成功即可
 v2ex.js = type=cron,cronexp=30 1 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/v2ex/v2ex.js,script-update-interval=0
-# 腾讯视频
-# 1.手机浏览器访问并登录: https://film.qq.com/
-腾讯视频 = type=cron,cronexp=35 1 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/videoqq/videoqq.js,script-update-interval=0
-# 喜马拉雅
-# 打开 APP, 访问下右下角`账号`
-喜马拉雅 = type=cron,cronexp=40 1 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/ximalaya/ximalaya.js,script-update-interval=0
-# 中国联通
-# 1打开 APP , 进入签到页面, 系统提示: `获取刷新链接: 成功`,然后手动签到 1 次
-# 2首页>天天抽奖, 系统提示 `2` 次: `获取Cookie: 成功 (登录抽奖)` 和 `获取Cookie: 成功 (抽奖次数)`
-中国联通 = type=cron,cronexp=20 2 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/10010/10010.js,script-update-interval=0
 # 美团
 # 打开 APP , 然后手动签到 1 次, (`首页` > `红包签到`)
 美团 = type=cron,cronexp=40 2 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/meituan/meituan.js,script-update-interval=0
@@ -68,15 +53,6 @@ v2ex.js = type=cron,cronexp=30 1 0 * * *,script-path=https://raw.githubuserconte
 # 首页 > 领取红包
 # 首页  > 天天低价
 苏宁易购 = type=cron,cronexp=50 3 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/suning/suning.js,script-update-interval=0
-# Zaker
-# 打开App,然后手动签1次
-Zaker = type=cron,cronexp=55 3 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/zaker/zaker.js,script-update-interval=0
-# 不背单词
-# 打开App,然后手动签1次
-不背单词 = type=cron,cronexp=0 4 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/bubei/bubei.js,script-update-interval=0
-# > 多看
-# `我的` > `签到任务` 等到提示获取 Cookie 成功即可
-多看 = type=cron,cronexp=20 4 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/duokan/duokan.js,script-update-interval=0
 
 #  其他
 # > 联通查话费流量
@@ -94,12 +70,5 @@ Zaker = type=cron,cronexp=55 3 0 * * *,script-path=https://raw.githubusercontent
 # > 招行信用卡(公众号) (By @iNotification)
 # 招商银行信用卡微信公众号：”领cron “0 0 0 * * *” script-path
 招行信用卡(公众号) = type=cron,cronexp=5 5 0 * * *,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/cmbchina.js,script-update-interval=0
-# > 京东到家 (@barrymchen, @GideonSenku & @Macsuny)
-# APP登陆账号后，点击主页’签到‘,即可
-京东到家 = type=cron,cronexp=25 5 0 * * *,script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/jddj.js,script-update-interval=0
-# > 喜马拉雅极速版(By @Macsuny)
-# APP登陆账号后，点击右下角’福利’选项,即可获取Cookie.
-# 每隔一小时开启一次，每天最多5次，金币账户与标准版不同账户
-喜马拉雅极速版 = type=cron,cronexp=0 6 0-5/1 * * *,script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/xmspeed.js
 # > 滴滴出行 (By @zZPiglet)
 滴滴出行 = type=cron,cronexp=0 6 0 * * *,script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/DiDi/DiDi.js
